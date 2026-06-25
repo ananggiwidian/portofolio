@@ -33,12 +33,12 @@ interface Portfolio {
   github: string;
 }
 
-interface Testimonial {
-  quote: string;
-  name: string;
-  title: string;
-  photo: string;
-}
+// interface Testimonial {
+//   quote: string;
+//   name: string;
+//   title: string;
+//   photo: string;
+// }
 
 interface Social {
   linkedin: string;
@@ -58,7 +58,7 @@ interface PersonalData {
   experience: Experience[];
   education: Education[];
   portfolio: Portfolio[];
-  testimonials: Testimonial[];
+  // testimonials: Testimonial[];
   social: Social;
   footerTagline: string;
 }
